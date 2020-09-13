@@ -2,7 +2,7 @@
 html, body {
     height: 100%;
     width: : 100%;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: #222;
 }
 
@@ -143,13 +143,22 @@ hr.light-100 {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+    .social a {
+    font-size: 4rem;
+    padding:1.5rem;
+  }
   }
 @media (max-width: 768px) {
-  
+  .social a {
+    font-size: 3.5rem;
+    padding:1.2rem;
+  }
 }
 @media (max-width: 576px) {
-  
+  .social a {
+    font-size: 2.5rem;
+    padding:.8rem;
+  }
 }
 
 
