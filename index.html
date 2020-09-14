@@ -25,30 +25,26 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About US</a>
+                <a class="nav-link" href="#about-us">About US</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">What we do</a>
+                <a class="nav-link" href="#what-we-do">What we do</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#connect-us">Contact Us</a>
             </li>
         </ul>
     </div>
 </div>
 </nav>
-<!-- Image Slider -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"</li>
-    </ul>
+<!-- Home section -->
+<div id="home" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="img/children2.jpg">
@@ -60,51 +56,30 @@
             <img src="img/help.jpg">
             <div class="carousel-caption">
                 <ul>
-                    <li><h1 calss="display-2">Help students</h1></li>
-                    <li><h3 calss="display-2">Guide students</h3></li>
+                    <li><h1>Help students in need.</h1></li>
+                    <li><h3>Guide students</h3></li>
                 </ul>
             </div>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#home" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-      <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#home" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
 </div>
-<div class="container-fluid" style="display: none">
-    <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            A web hosting service allows individuals and organizations to make their website accessible via world wide web.
+<hr>
+<!-- About us section -->
+<div id="about-us" class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-12 about-us-header text-center">
+            <h2>About US</h2>
+            <hr class="header">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
-        </div>
-    </div>
-</div>
-<!-- Welcome section -->
-<div class="containe-fluid padding" style="display: none">
-    <div class="row welcome">
-    <div class="col-12 text-center">
-        <h1 class="display-4">Welcome to BECS</h1>
-        <hr>
-    </div>
-    <div class="col-12">
-        <p class="lead">
-            Welcome to Back ward children educational socity (BECS). Founded in the year 2018 by Nishar Basha D, a software engineer who has the
-            intension to help poor chilren/students by providing the basic needs.
-        </p>
-    </div>
-    </div>
-</div>
-<!-- Two column section -->
-<div class="container-fluid padding">
-    <div class="row">
         <div class="col-lg-6">
-            <h2>Backward Children Education Society</h2>
             <p>
                 In a modernizing world education is the only means to secure the future. Nishar Basha who is a software engineer, who has seen struggles of his parents Mastan Vali D and Ameena Bee D for his enducation. Keeping this in mind, Nishar started with Backward children educational society along with his childhood friends Siva kumar, Shankar Reddy, Harish and Siva from a tiny village name called Yerra Palli which is in Chittor district, Andra Pradesh. Nishar and his friends whated to broaden it as much as possible and provide their help and support to the students who are in need. 
             </p>
@@ -117,11 +92,15 @@
         </div>
     </div>
 </div>
-<!-- Two column section -->
-<div class="container-fluid">
+<hr>
+<!-- What we do section -->
+<div id="what-we-do" class="container-fluid padding">
     <div class="row padding">
+        <div class="col-12 what-we-do-header text-center">
+            <h2>What we do</h2>
+            <hr class="header">
+        </div>
         <div class="col-lg-6">
-            <h2 class="text-center">What we do</h2>
             <p>
                 In a modernizing world education is the only means to secure the future. Nishar Basha who is a software engineer, who has seen struggles of his parents Mastan Vali D and Ameena Bee D for his enducation. Keeping this in mind, Nishar started with Backward children educational society along with his childhood friends Siva kumar, Shankar Reddy, Harish and Siva from a tiny village name called Yerra Palli which is in Chittor district, Andra Pradesh. Nishar and his friends whated to broaden it as much as possible and provide their help and support to the students who are in need. 
             </p>
@@ -134,14 +113,14 @@
             <img src="img/help.jpg" class="img-fluid">
         </div>
     </div>
-    <hr class="my-4">
 </div>
-<!-- Cards -->
-<div class="container-fluid padding">
+<hr>
+<!-- Gallery section -->
+<div id="gallery" class="container-fluid padding">
     <div class="row padding">
-        <div class="col-12 text-center">
+        <div class="col-12 gallery-header text-center">
             <h2>Gallery</h2>
-            <hr style="width: 25%">
+            <hr class="header">
         </div>
         <div class="col-md-4">
             <div class="card">
@@ -180,12 +159,39 @@
             </div>
         </div>
     </div>
-    <hr>
 </div>
-<!-- Social connect -->
-<div class="container-fluid padding">
-    <div class="row text-center">
-        <div class="col-12 social">
+<hr>
+<!-- Contact us section -->
+<div id="contact-us" class="padding  text-center">
+    <div class="row padding">
+        <div class="col-12 contact-us-header">
+            <h2>Contact US</h2>
+            <hr class="header">
+        </div>
+        <div class="col-12">
+            <h4>We'd love to hear from you Comments, suggestions and questions are always welcome</h4>
+        </div>
+        <div class="col-md-4">
+            <h6 style="font-weight: bold">Address:</h6>
+            <p style="padding-left: 20px;">#32, Yerra palli, Ramasamudram, Chittoor, Andra pradesh, 517247</p>
+        </div>
+        <div class="col-md-4">
+            <h6 style="font-weight: bold">Phone:</h6>
+            <p>+91 9035041579</p>
+        </div>
+        <div class="col-md-4">
+            <h6 style="font-weight: bold">Email:</h6>
+            <p>becs@gmail.com</p>
+        </div>
+    </div>
+</div>
+<footer class="text-center">
+<div class="row">
+    <div class="row col-md-6 social">
+        <div class="col-md-12">
+            <img src="img/bces-logo.png">
+        </div>
+        <div class="col-md-12">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-google-plus-g"></i></a>
@@ -193,37 +199,22 @@
             <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
     </div>
-</div>
-<footer>
-    <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <img src="img/bces-logo.png">
-                <p>9035041579</p>
-                <p>nisharyrp@gmail.com</p>
-                <p>#32, Yerrapalli, Ramasamudram mandal</p>
-                <p>Chittor, AP, 517247</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light">
-                <p>Our Hours</p>
-                <hr class="light">
-                <p>Moday to Saturday: 10AM - 6PM</p>
-                <p>Sunday: Closed</p>
-                <p>Chittor, AP, 517247</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light">
-                <p>Service Area</p>
-                <hr class="light">
-                <p>Chittoor, Andra pradesh - 517247</p>
-            </div>
-            <div class="col-12">
-                <hr class="light-100">
-                <p>www.becs.com</p>
-            </div>
+    <div class="row col-md-6">
+        <div class="col-12 contact-us-header">
+            <h2>Contact US</h2>
+        </div>
+        <div class="col-md-12">
+            <p>9035041579</p>
+            <p>nisharyrp@gmail.com</p>
+            <p>#32, Yerrapalli, Ramasamudram mandal</p>
+            <p>Chittor, AP, 517247</p>
         </div>
     </div>
+    <div class="col-12">
+        <hr class="light-100">
+        <p>www.becs.com</p>
+    </div>
+</div>
 </footer>
 </body>
 </html>
